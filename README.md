@@ -1,2 +1,2 @@
 # graphql-poc
-A graphql + nodejs + mongo poc
+A React + Apollo + graphql + nodejs + mongo poc
