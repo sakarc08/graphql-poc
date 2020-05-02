@@ -1,0 +1,30 @@
+{
+  "name": "graphql-poc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "concurrently": "^5.2.0"
+  },
+  "scripts": {
+    "start": "concurrently \"cd server && npm run start\" \"cd client && npm run start\"",
+    "postinstall": "concurrently \"cd server && npm install\" \"cd client && npm install\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
